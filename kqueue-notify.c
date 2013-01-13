@@ -11,11 +11,14 @@
  */
 
 /* Kernel stuff: */
-#include <sys/event.h>                  /* kqueue */
+#include <sys/types.h>                 /* kqueue */
+#include <sys/event.h>
+#include <sys/time.h>
+
 #include <sys/stat.h>                   /* S_ISDIR */
-#include <sys/dir.h>
 
 #include <fcntl.h>                      /* open(), O_RDONLY */
+#include <dirent.h>
 #include <stdio.h>
 #include <string.h>
 #include <stdlib.h>                     /* exit(), malloc(), etc. */
