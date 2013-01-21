@@ -17,9 +17,18 @@ Usage
 
 `./kqueue-notify <directory>`
 
+Documentation
+-------------
+
+* [Kqueue whitepaper][]
+* [Kqueue(2)][]
+
 TODO
 ----
 
 * Watch directories recursively.
 * Accept multiple directories as arguments.
 * Fix memory leaks :)
+
+[Kqueue whitepaper]: http://people.freebsd.org/~jlemon/papers/kqueue.pdf
+[Kqueue(2)]: http://www.freebsd.org/cgi/man.cgi?query=kqueue&sektion=2
